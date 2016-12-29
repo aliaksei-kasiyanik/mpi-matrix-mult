@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(mpi_matrix_multiplication)
+project(mpi-matrix-mult)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -10,4 +10,4 @@ SET(CMAKE_C_COMPILER mpicc)
 SET(CMAKE_CXX_COMPILER mpiCC)
 
 set(SOURCE_FILES main.c)
-add_executable(mpi_matrix_multiplication ${SOURCE_FILES})
+add_executable(mpi-matrix-mult ${SOURCE_FILES})
